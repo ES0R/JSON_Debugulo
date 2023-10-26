@@ -12,8 +12,8 @@ def analyse():
     # loading models
     face_detection = cv2.CascadeClassifier(detection_model_path)
     emotion_classifier = load_model(emotion_model_path, compile=False)
-    EMOTIONS = ["in pain" ,"disgust","scared", "happy", "sad", "surprised",
-    "neutral"]
+    EMOTIONS = ["in pain" ,"in pain","in pain", "happy", "in pain", "in pain",
+    "in pain"]
 
 
     #feelings_faces = []
